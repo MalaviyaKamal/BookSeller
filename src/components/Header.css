@@ -1,0 +1,66 @@
+.header{
+    padding-right: 20px;
+    display: flex;
+    justify-content:right;
+    /* justify-content: space-between; */
+    margin-top:5px;
+    align-items: center;
+    
+    background: rgb(166,162,223);
+background: linear-gradient(90deg, rgba(166,162,223,1) 0%, rgba(209,209,244,1) 35%, rgba(212,235,240,1) 100%);
+    height: 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15)
+}
+/*headerWrapper */
+.headerLogo img{
+    width:180px;
+}
+.headerWrapper{
+    display:flex;
+    justify-content: right;
+    align-items:center;
+    height: 92px;
+    padding-right: 1000px;
+}
+.headerLogo2 img{
+    width:180px;
+}
+.headerWrapper2{
+    display:flex;
+    justify-content: right;
+    align-items:center;
+    height: 92px;
+    padding-right: 700px;
+}
+.header a
+{
+     font-size: 1rem;
+     margin: 15px;
+     text-decoration: none; 
+}
+.header a.active
+{
+     /* font-size: 1.3rem; */
+     text-decoration: underline;
+     font-weight: bold; 
+     color:rgb(0, 0, 134);
+
+}
+.search
+{
+    font-size: 1.5rem;
+    z-index: 110;
+    align-self: right;
+}
+
+.overlay
+{
+    width:100vw;
+    height: 100vh;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    backdrop-filter: blur(0.1px);
+    
+}

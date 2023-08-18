@@ -1,0 +1,18 @@
+.footerLogo{ 
+    display: flex;
+    justify-content: center;         
+}
+.svgImg{
+width:200px;
+height:auto;
+}
+.text-center{
+text-align: center;
+}
+.footerWrapper{
+background-color:#cdc9c9;
+}
+.mainDiv{
+padding-top:15px;
+padding-bottom:3px;
+}
